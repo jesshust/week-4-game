@@ -1,0 +1,83 @@
+body {
+	background: url(../images/windwakerbg.jpg);
+	font-size: 18px;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #000;
+	background-repeat: no-repeat;
+	background-position: center; 
+	
+}
+
+* {
+	box-sizing: border-box;
+
+}
+
+.container {
+
+	color: #000;
+	margin-left: 15px;
+	font-family: 'Alegreya Sans', sans-serif;
+
+}
+.header {
+	height: 80px; 
+	width:300px;
+	background-color: #00A600; 
+	color: #fff;
+	text-align: center; 	 
+}
+
+.randomnumber {
+	background: #fff;
+	border-style: solid;
+	border-color: #000; 
+	height: 100px;
+	width: 150px;
+	margin-top: 10px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px; 
+	
+}
+.instructions {
+	height: 300px;
+	width: 500px;
+	background: #fff; 
+	color: #000;
+ 	margin-top: 10px;
+	border-style: solid; 
+	border-color: #000;
+	font-size: 18px; 
+}
+.buttons {
+	margin-top: 10px;
+
+
+}
+.winslosses {
+	background: #fff;
+	border-style: solid;
+	border-color: #000; 
+	height: 100px;
+	width: 100px;
+	margin-top: 10px;
+	clear: none;
+}
+.info {
+	margin-top: 10px;
+	background: #fff;
+	height: 20px;
+	width:450px; 
+	border-style: solid; 
+	border-color: #000;
+}
+
+.score {
+
+	background: #fff;
+	border-style: solid;
+	border-color: #000; 
+	height: 100px;
+	width: 150px;
+	margin-top: 10px;
+}
