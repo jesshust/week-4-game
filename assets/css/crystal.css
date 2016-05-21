@@ -1,10 +1,11 @@
 body {
-	background: url(../images/windwakerbg.jpg);
+	background: url(../images/link2.jpg);
 	font-size: 18px;
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #000;
 	background-repeat: no-repeat;
 	background-position: center; 
+	background-size: cover;
 	
 }
 
@@ -20,33 +21,43 @@ body {
 	font-family: 'Alegreya Sans', sans-serif;
 
 }
+
+.title {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 2.1;
+    color: inherit;
+    }
+
 .header {
 	height: 80px; 
-	width:300px;
-	background-color: #00A600; 
+	width:400px;
+	background-color: #5586ab;  
 	color: #fff;
-	text-align: center; 	 
+	text-align: center; 
+	vertical-align: baseline; 	 
 }
 
 .randomnumber {
-	background: #fff;
+	background: #69b8b6;
 	border-style: solid;
-	border-color: #000; 
+	border-color: #69b8b6; 
 	height: 100px;
 	width: 150px;
 	margin-top: 10px;
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 20px; 
+	font-size: 40px; 
+	color: #fff;
 	
 }
 .instructions {
 	height: 300px;
 	width: 500px;
-	background: #fff; 
+	background: #fffaf0; 
 	color: #000;
  	margin-top: 10px;
 	border-style: solid; 
-	border-color: #000;
+	border-color: #fffaf0;
 	font-size: 18px; 
 }
 .buttons {
@@ -55,29 +66,35 @@ body {
 
 }
 .winslosses {
-	background: #fff;
+	background: #88c7a9;
 	border-style: solid;
-	border-color: #000; 
+	border-color: #88c7a9; 
 	height: 100px;
-	width: 100px;
+	width: 150px;
 	margin-top: 10px;
 	clear: none;
+	font-size: 30px;
+	color: #fff; 
 }
 .info {
 	margin-top: 10px;
-	background: #fff;
-	height: 20px;
-	width:450px; 
+	background: #5586ab;
+	height: 40px;
+	width:400px; 
 	border-style: solid; 
-	border-color: #000;
+	border-color: #5586ab;
+	font-size: 20px; 
+	color: #fff;
 }
 
 .score {
 
-	background: #fff;
+	background: #5586ab;
 	border-style: solid;
-	border-color: #000; 
+	border-color: #5586ab; 
 	height: 100px;
 	width: 150px;
 	margin-top: 10px;
+	font-size: 40px; 
+	color: #fff; 
 }
